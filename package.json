@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://npm.bbpd.io/repository/bb-npm/"
+  },
   "author": "venkatesh.velan5@gmail.com",
   "license": "ISC"
 }
