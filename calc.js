@@ -9,7 +9,7 @@ const operations = {
 const validateInputs = (n1, n2, func) => {
   if ((typeof n1 !== 'number') || (typeof n2 !== 'number'))
   {
-    throw "Invalid Inputs";
+    throw "Invalid Inputs!!";
   }
   return func(n1, n2);
 };
